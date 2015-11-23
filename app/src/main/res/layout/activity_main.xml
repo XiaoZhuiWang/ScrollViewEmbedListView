@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44ff0000"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.linwright.scrollviewandlistview.MainActivity" >
+    
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="#4400ff00"
+        android:text="外部拦截法" />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_one"
+        android:layout_marginTop="18dp"
+        android:background="#4400ff00"
+        android:text="内部拦截法" />
+
+</LinearLayout>

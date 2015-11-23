@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.linwright.scrollviewembedlistview.view.EmbedListViewScrollView
+        android:id="@+id/sv_my"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon" />
+
+            <ListView
+                android:id="@+id/ll_my"
+                android:layout_width="match_parent"
+                android:layout_height="500dp" >
+            </ListView>
+        </LinearLayout>
+    </com.linwright.scrollviewembedlistview.view.EmbedListViewScrollView>
+</RelativeLayout>
