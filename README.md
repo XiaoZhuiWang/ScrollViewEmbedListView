@@ -1,2 +1,2 @@
 # ScrollViewEmbedListView
-该项目采用外部拦截法和内部拦截法两种方式，解决了ScrollView嵌入ListView的滑动冲突问题
+采用外部拦截法和内部拦截法两种方式，解决ScrollView嵌入ListView的滑动冲突问题
